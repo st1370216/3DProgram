@@ -51,9 +51,8 @@ private:
 	// ゲーム終了フラグ trueで終了する
 	bool		m_endFlag = false;
 
-	//※※※テスト用絶対消す※※※//
-
-	int m_test;
+	//カメラ　
+	std::shared_ptr<KdCamera>_stCamera = nullptr;//スマートポインタ
 
 
 
